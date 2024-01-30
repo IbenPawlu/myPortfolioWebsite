@@ -1,0 +1,153 @@
+body {
+	font-family:Titillium Web, Lato, Libre Baskerville, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	background-color: #121212;
+}
+header{
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 999;
+}
+h1 {
+	color:#7393B3;
+	font-size:49px;
+	font-family:Titillium Web, Lato, Libre Baskerville, sans-serif;
+	font-weight: 700;
+	line-height: 55px;
+}
+h1, h2, h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h2, h3 {
+	font-weight: 800;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #7393B3;
+}
+h2 {
+	font-size:35px;
+	line-height:35px;
+}
+h3 {
+	font-size: 13px;
+	line-height:20px;
+	color:white;
+}
+h4 {
+	color:#6082B6;
+	text-transform:uppercase;
+}
+p {
+	font-weight:400;
+	line-height:30px;
+	font-size:18px;
+	color: #B2BEB5;
+}
+#header-nav ul {
+	margin:0;
+}
+#header-nav li {
+	margin-bottom:10px;
+	list-style:none;
+	display:inline-block;
+	padding:0 20px;
+}
+a{
+	color:#6082B6;
+	font-weight: bold;
+	text-decoration-line: none;
+}
+/*I added this part to make the logo and header nav fixed in place */
+/*To add position:sticky for the nav and logo */
+/*I added this part to make the logo and header nav fixed in place */
+
+#header-nav li a:hover{
+	cursor: pointer;
+	font-weight: 700;
+	color:yellow;
+}
+.section-wrap{
+	padding: 0 24px;
+	width: 90%;
+	margin: 0 auto;
+}
+#header-logo, #header-nav{
+	display: inline-block;
+	height: auto;
+	padding: 30px 0;
+	vertical-align:top;
+	margin:0;
+}
+#header-logo {
+  margin-right: -25px;
+	margin-top:-25px;
+}
+#portfolio{
+	display:inline-block;
+	width:100%;
+	padding: 280px 0;
+	background: #36454F;
+}
+#portfolio-container{
+	margin-top:40px;
+}
+#work{
+	display:inline-block;
+	width: 100%;
+	padding: 140px 0;
+}
+#work-container{
+	display:inline-block;
+	width: 100%;
+	margin-top: 40px;
+}
+#work-container a{
+	text-decoration: none;
+}
+.footer-row{
+	display: inline-block;
+	width: 100%;
+}
+.footer-row input, .footer-row select, .footer-row textarea{
+	display: inline-block;
+	width:45%;
+	margin:0 15px 15px 0;
+	padding-left: 10px;
+	border-radius: 0;
+	background:none;
+	height: 40px;
+	border-left:0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid;
+	font-size: 18px;
+	color:#6082B6;
+}
+.footer-row textarea{
+	width:92%;
+	height:100px;
+}
+.footer-row button{
+	font-size: 18px;
+	font-weight: 500;
+	background: none;
+	border: 2px solid;
+	cursor: pointer;
+	height:50px;
+	width:200px;
+	border-radius:50px;
+	color:#F94C10;
+}
+.footer-row button:hover{
+	background-color:#121212;
+	border:#F94C10 5px solid;
+	color:#F94C10;
+}
+#contact{
+	margin-bottom:100px;
+}
