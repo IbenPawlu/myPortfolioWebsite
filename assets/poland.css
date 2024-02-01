@@ -8,6 +8,12 @@ body{
 #portfolio{
 	padding: 114px 0 20px 0;
 }
+#portfolio {
+	background-blend-mode:luminosity;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 #blog{
 	padding: 10px 4px 10px 4px;
 }
@@ -52,7 +58,7 @@ article .article-content iframe[src *=youtube]{
 	left:0;
 }
 
-                     /* Table customization */
+                     /* Table customization start */
 .blog-table{
 	text-align: left;
 	overflow: hidden;
@@ -94,7 +100,7 @@ article .article-content iframe[src *=youtube]{
 	background-color: #C70039;
 	color:black;
 }
-                     /* Table customization */
+                     /* Table customization End */
 
 .article-content figure video{
 	display:block;
@@ -117,3 +123,4 @@ figcaption{
 	margin-left:100px;
 	
 }
+

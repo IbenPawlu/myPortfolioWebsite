@@ -1,3 +1,6 @@
+*{
+	box-sizing:border-box;
+}
 body {
 	font-family:Titillium Web, Lato, Libre Baskerville, sans-serif;
 	font-size: 16px;
@@ -14,7 +17,7 @@ header{
 }
 h1 {
 	color:#7393B3;
-	font-size:49px;
+	font-size:50px;
 	font-family:Titillium Web, Lato, Libre Baskerville, sans-serif;
 	font-weight: 700;
 	line-height: 55px;
@@ -101,13 +104,26 @@ a{
 	width: 100%;
 	padding: 140px 0;
 }
-#work-container{
-	display:inline-block;
+.work-container{
+	display:flex;
 	width: 100%;
 	margin-top: 40px;
+	justify-content:space-between;
 }
-#work-container a{
+.work-container a{
 	text-decoration: none;
+}
+.work-container img:hover{
+	box-shadow:grey -10px 10px;
+	width:450px;
+	box-shadow: 0px 40px 50px rgba(255, 255, 255, 0.2);
+}
+.work-container img{
+	margin:50px;
+	transition: 1s ease-in;
+	transition: 0.5s ease-out;
+	box-shadow:none ;
+	box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
 }
 .footer-row{
 	display: inline-block;
@@ -151,3 +167,4 @@ a{
 #contact{
 	margin-bottom:100px;
 }
+
