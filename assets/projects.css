@@ -4,6 +4,7 @@
 }
 body{
 	background-color:black;
+	margin:0;
 }
 #portfolio{
 	padding: 114px 0 20px 0;
@@ -24,11 +25,17 @@ article{
 	margin: 4px 0 10px 0;
 	background-color: #121212;
 }
-strong{
-	color:#B2BEB5;
-}
 article img{
-	width: 320px;
+	width: 620px;
+	transition: 1s ease-in;
+	transition: 0.5s ease-out;
+}
+article img:hover{
+	/* -webkit-transform: scale(2.25);
+	-moz-transform: scale(2.25);
+	transform: scale(2.25); */
+	width:1000px;
+	box-shadow: 0px 40px 50px #36454F;
 }
 article .article-content{
 	margin: 0 0 0 4px;
@@ -46,16 +53,10 @@ h3{
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-article .video-container{
-	position:relative;
-	padding-top: 56.25%;
-}
-article .article-content iframe[src *=youtube]{
-	width:100%;
-	height:100%;
-	position: absolute;
-	top:0;
-	left:0;
+h5{
+	font-size: 1rem;
+	margin:0;
+	color: #F94C10;
 }
 
                      /* Table customization start */
@@ -102,25 +103,7 @@ article .article-content iframe[src *=youtube]{
 }
                      /* Table customization End */
 
-.article-content figure video{
-	display:block;
-	margin:-90px auto -10px auto;
-	max-height:400px;
-	width:auto;
-}
-.article-content figcaption{
-	text-align:center;
-	font-style: italic;
-	margin-bottom:50px;
-}
-footer{
-	color:#B2BEB5;
-}
-figcaption{
-	color:#B2BEB5;
-}
 #contact{
 	margin-left:100px;
-	
 }
 

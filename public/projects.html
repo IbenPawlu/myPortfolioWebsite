@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html lang="en"> 
+	
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/assets/main.css">
+<link rel="stylesheet" href="/assets/projects.css">
+	<!------- Below is the importing of the fonts ------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Baskerville&family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+	
+<title>Portfolio</title>
+</head>
+
+<body>
+	<header>
+		<div class="section-wrap">
+	<div id="header-logo">
+	<a href="/index.html"><img width="70px" src="/assets/images/logocolor.png" alt="Logo"></a>
+	</div>
+	<!--------------- Navigation Panel ----------------->
+<div id="header-nav">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="./collection.html">Photo Library</a></li>
+			<li><a href="./projects.html">Portfolio</a></li>
+		</ul>
+	</div>
+		</div>
+	</header>
+	<!------------ Title ------------->
+	<main>
+		
+		<section id="portfolio" style="background-image: url(/assets/images/pixelman.jpeg);">
+			<div class="section-wrap">
+				<h3>Portfolio</h3>
+				<h1>My Projects</h1>
+			</div>
+		</section>
+	<!------------ Article 1 ------------->
+		<section id="blog">
+		<div class="section-wrap">
+			
+	<article>
+		<div class="article-content" id="article1">
+		<a href="/assets/projects/bibicreations/index.html"><img width="400px" src="/assets/images/bibiwebsiteimage.png" alt="Bibi Creations website"></a>
+		<h4><a href="/assets/projects/bibicreations/index.html">Simple Local Commerce Website</a></h4>
+		<p>
+			This is the first website I ever built without any tutorials. Simple website but I learned how to further
+			style with CSS and how to structure my code.
+		</p>
+			<h5>Languages Used:</h5>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+			</ul>
+		</div>
+	</article>
+	<!---------- Article 2 -------------->
+		<article>
+			<div class="article-content">
+			<h2>Timeline</h2>
+			<p>The table below shows the timeline of when I was introduced to the language and where I was introduced to it.</p>
+	<!------------ Table of Article 2 ------------>
+			<table class="blog-table">
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Language</th>
+						<th>Method</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>August 2023</td>
+						<td>HTML</td>
+						<td>Ice Malta Course</td>
+					</tr>
+					<tr>
+						<td>August 2023</td>
+						<td>CSS</td>
+						<td>Ice Malta Course</td>
+					</tr>
+					<tr>
+						<td>August 2023</td>
+						<td>JavaScript</td>
+						<td>Ice Malta Course</td>
+						
+					</tr>
+					<tr>
+						<td>November 2023</td>
+						<td>PHP</td>
+						<td>Ice Malta Course</td>
+					</tr>
+					<tr>
+						<td>November 2023</td>
+						<td>SQL</td>
+						<td>Ice Malta Course</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+	<!------------ End of Table ----------------->
+			</article>
+		</section>
+	</main>
+ <!------------ Beginning of Footer form ----------------->
+<footer>
+	<section id="contact">
+		<div class="section-wrap flex-grid">
+			<h3 class="footer-text">Stay Tuned</h3>
+			<h2 class="footer-text">Subscribe to be notified when our next blog drops!</h2>
+			<p class="footer-text">Fill the form below to receive a notification straight to your inbox</p>
+		</div>
+		<div id="footer-form" class="col-2">
+			<form name="subscribe-form">
+				<div class="footer-row">
+					<input type="text" name="name" aria-required="true" aria-invalid="false" placeholder="First Name" required>
+					<input type="text" name="lname" aria-required="true" aria-invalid="false" placeholder="Last Name" required>
+				</div>
+				<div class="footer-row">
+					<input type="email" name="email" aria-required="true" aria-invalid="false" placeholder="Email Address" required>
+					<select name="country" role="menu" aria-invalid="false" aria-expanded="false" required>
+						<option value="">Location</option>
+						<option value="Malta">Malta</option>
+						<option value="Italy">Italy</option>
+						<option value="France">France</option>
+						<option value="Other">Other</option>
+					</select>
+				</div>
+				<div class="footer-row">
+					<textarea name="message" cols="32" rows="4" aria-invalid="false" placeholder="Message" required></textarea>
+				</div>
+				<div class="footer-row">
+					<button type="submit" value="Submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</section>
+</footer>
+</body>
+</html>

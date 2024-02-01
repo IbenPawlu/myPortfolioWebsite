@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- Check out https://www.asphalte.com/en-US/h/collections/stock for inspiration -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibi Creations</title>
+    <link href="assets/index.css" rel="stylesheet" type="text/css">
+	<!-- Google Fonts input -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela&family=Varela+Round&display=swap" rel="stylesheet">
+	<!-- Google fonts Input -->
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+	<!-- Bootstrap -->
+</head>
+<body>
+    <header>
+        <div id="headnavbr">
+			<div id="headnavcontainer">
+			<div id="headnavlogo">
+        <a href="index.html"><img width="120px" src="./assets/images/bibilogo.jpg" alt="bibi logo"></a>
+				</div>
+			<div id="headnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="public/products.html">Products</a></li>
+			<li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+				</div>
+				</div>
+			<div id="headnavtextcontainer">
+			<div id="headnavheaders">
+			<h1>Baby Shower &amp; Newborn Gifts</h1>
+				<div id="headnavh4">
+					<h4><a href="public/products.html">Check it out!</a></h4>
+					</div>
+					</div>
+				</div>
+            </div>
+    </header>
+    <main>
+		<div class="maincontainer">
+			<div class="mainheader">
+		<h3>Products</h3>
+		<h2>A selection of available products.</h2>
+				</div>
+		<div class="productscontainer">
+			<div class="productsimage"><img src="./assets/images/productportrait1.jpg" alt="product 1"></div>
+			<div class="productsimage"><img src="./assets/images/productportrait2.jpg" alt="product 2"></div>
+			<div class="productsimage"><img src="./assets/images/productportrait3.jpg" alt="product 3"></div>
+		</div>
+			</div>
+		                <!------------ THE BOOTSTRAP CAROUSELS STARTS HERE ------------>
+		<div class="wrappingcarousel">
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/images/carousel1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/carousel11.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/carousel111.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+		           <!------------ OTHER BOOTSTRAP CAROUSEL HERE ------------>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/images/carousel2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/carousel22.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/carousel222.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+			</div>
+		          <!------------ THE BOOTSTRAP CAROUSELS ENDS HERE ------------>
+</main>
+	<footer>
+		<section id="contact">
+		<div class ="footer-container">
+			<div class="footer-form-text">
+				<div class="footer-h">
+		<h5>Do you have an event coming up?</h5>
+		<h5>Want a custom made product?</h5>
+		<h3>Fill in the form so we can discuss further!</h3>
+					</div>
+		  </div>
+			<div class="footer-form, footer-row">
+			<form action="" target="_blank" id="contact-form" title="contactMe-form">
+				<div class="footer-form">
+					<input name="nameSurname" type="text" required="required" id="nameSurname" placeholder="Name and Surname" title="nameSurname">
+					<input name="contactnumber" type="tel" id="contactnumber" placeholder="Contact Number" title="contactnumber">
+				</div>
+				<div class="footer-form, footer-row">
+					<textarea name="description" id="description" placeholder="Please provide additional details." title="description"></textarea>
+					<button type="submit" value="Submit">Submit</button>
+				</div>
+			</form>
+	  		</div>
+			</div>
+			
+			</section>
+	</footer>
+	
+</body>
+</html>

@@ -7,6 +7,7 @@ body {
 	line-height: 16px;
 	font-weight: 400;
 	background-color: #121212;
+	margin:0;
 }
 header{
 	width:100%;
@@ -67,7 +68,6 @@ a{
 }
 /*I added this part to make the logo and header nav fixed in place */
 /*To add position:sticky for the nav and logo */
-/*I added this part to make the logo and header nav fixed in place */
 
 #header-nav li a:hover{
 	cursor: pointer;
@@ -90,14 +90,11 @@ a{
   margin-right: -25px;
 	margin-top:-25px;
 }
-#portfolio{
+#photos-title{
 	display:inline-block;
 	width:100%;
 	padding: 280px 0;
 	background: #36454F;
-}
-#portfolio-container{
-	margin-top:40px;
 }
 #work{
 	display:inline-block;
@@ -114,8 +111,10 @@ a{
 	text-decoration: none;
 }
 .work-container img:hover{
-	box-shadow:grey -10px 10px;
-	width:450px;
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	transform: scale(1.25);
+	/* width:480px; */
 	box-shadow: 0px 40px 50px rgba(255, 255, 255, 0.2);
 }
 .work-container img{

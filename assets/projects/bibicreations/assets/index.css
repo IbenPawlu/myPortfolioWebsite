@@ -1,0 +1,226 @@
+*{
+	box-sizing:border-box;
+}
+header li{
+	font-family: 'Varela', sans-serif;
+}
+#headnavbr{
+    background-image: url("../assets/images/backgroundimage.jpg");
+	height:900px;
+	width:100%;
+	margin:0;
+	padding:30px 0 0 0;
+	display:flex;
+	background-size:cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#headnavcontainer{
+	/*border:solid red 1px;*/
+	height: 120px;
+	width:100%;
+	display:flex;
+	position:absolute; /*Set to fixed so navigation bar remains at the top of the screen when scrolling down*/
+	backdrop-filter: blur(10px);
+	box-shadow:5px 5px 30px;
+}
+#headnavlogo img{
+	border-radius: 60px;
+}
+#headnavlogo{
+	margin-left:90px;
+	box-shadow:5px 5px 30px;
+	border-radius: 60px;
+}
+#headnav{
+	width:700px;
+	margin: auto;
+}
+#headnav li{
+	text-decoration: none;
+	list-style-type: none;
+	display:inline;
+	padding:30px;
+	font-size:25px;
+}
+#headnav a{
+	color:#f8d7da;
+}
+#headnav li a:hover{
+	font-weight:700;
+	color:#f7c3c8;
+}
+header a{
+	text-decoration: none;
+	color:black;
+}
+#headnavtextcontainer{
+	/*border:solid pink 1px;*/
+	text-align: left;
+	height:720px;
+	display:grid;
+	margin-top:80px;
+	padding-left:40px;
+}
+#headnavheaders{ 
+	/*border:solid blue 1px;*/
+	align-self:end;
+	margin-bottom:100px;
+	padding-left:10px;
+}
+#headnavheaders h1{
+	font-family: 'Varela Round', sans-serif;
+}
+#headnavh4{
+	background-color:#CE5A67;
+	width:150px;
+	height:35px;
+	display:flex;
+	animation: rotateDottedBorder 2s linear infinite;
+}
+#headnavh4 h4{
+	margin:auto;
+}
+#headnavh4 a{
+	color:#1F1717;
+}
+#headnavh4:hover{
+	animation: shakeAnimation 0.5s ease-in-out;
+}
+@keyframes shakeAnimation { /* This is the on hover shake animation*/
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(2px); /* Adjust the amount of shake */
+  }
+  30%, 50%, 70% {
+    transform: translateX(-2px); /* Adjust the amount of shake */
+  }
+}
+
+@keyframes rotateDottedBorder { /*This is the all time rotate animation*/
+  0% {
+    transform: rotate(2deg);
+  }
+	50% {
+    transform: rotate(-2deg);
+  }
+	100% {
+    transform: rotate(2deg);
+  }
+}
+
+/* --------------------------------- Main styling begins here ---------------------------------*/
+
+.mainheader{
+	/*border:solid blue 1px;*/
+	width:100%;
+	padding:50px 0 0 40px;
+}
+.maincontainer{
+	background-color: #FCF5ED;
+	padding-bottom:100px;
+}
+.productscontainer{
+	/*border:solid red 1px;*/
+	display:flex;
+	width:100%;
+	height:620px;
+	justify-content: space-around;
+}
+.productsimage{
+	height:500px;
+	width:400px;
+	padding:60px 60px 60px 10px;
+}
+.productsimage img{
+	height:500px;
+	border-radius: 10px;
+	transition: all 0.6s ease-in-out;
+}
+.productsimage img:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+	transform-origin: 50% 50%;
+	box-shadow:5px 5px 30px;
+	transition: all 0.3s ease-in-out;
+}
+                                /* Bootstrap Carousel customization begins */
+.wrappingcarousel{
+	display:flex;
+	justify-content: space-around;
+	padding:50px 50px 150px 50px;
+	background-color: #FCF5ED;
+}
+#carouselExampleFade{
+  	width:30%;
+	padding:10px;
+	box-shadow:5px 5px 30px;
+	border-radius:20px;
+}
+#carouselExample {
+  	width:30%;
+	padding:10px;
+	box-shadow:5px 5px 30px;
+	border-radius:20px;
+}
+.carousel-item img {
+  height: 500px;
+	border-radius: 10px;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+                                /* Bootstrap Carousel customization ends */
+
+/* --------------------------------- Main styling ends here ---------------------------------*/
+/* --------------------------------- Footer styling begins here ---------------------------------*/
+
+.footer-container{
+	/*border:solid red 1px;*/
+	background-image: url("./images/backgroundgradient.png");
+	background-size:cover;
+	height:320px;
+	display:inline-block;
+	width:100%;
+}
+.footer-form-text h5, .footer-form-text h3{
+	color: #CE5A67;
+	font-weight:800;
+	margin:15px 15px 15px 15px;
+}
+.footer-row button{
+	font-size: 18px;
+	font-weight: 500;
+	background: none;
+	border: 2px solid;
+	cursor: pointer;
+	height:50px;
+	width:200px;
+	border-radius:50px;
+	color:#CE5A67;
+}
+form button:hover{
+	background-color:#CE5A67;
+	border:#FCF5ED 5px solid;
+	color:#FCF5ED;
+}
+.footer-row textarea{
+	width:92%;
+	height:100px;
+}
+.footer-row input, .footer-row select, .footer-row textarea{
+	display: inline-block;
+	width:45%;
+	margin:2px 15px 15px 15px;
+	padding-left: 10px;
+	border-radius: 0;
+	background:none;
+	height: 40px;
+	border-left:0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid;
+	font-size: 18px;
+	color:#6082B6;
+}
